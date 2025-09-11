@@ -1,34 +1,40 @@
-# Laporan Praktikum Mobile Programming
-# Modul 4  
-## Widget Flexible dan Expanded  
+# 🎶 Praktikum Mobile Programming  
+## Widget Flexible & Expanded  
 
-### Nama  
-**Jovan Faizan Ardiansyah**  
-NIM: 230605110138  
-Kelas: C  
-
----
-
-### Tujuan  
-Tujuan dari praktikum ini adalah untuk mempelajari dan mengimplementasikan konsep pengaturan tata letak widget pada Flutter dengan memanfaatkan kombinasi **Row**, **Expanded**, dan **Flexible**. Melalui praktikum ini, mahasiswa diharapkan dapat memahami bagaimana distribusi ruang antar widget dapat diatur agar terlihat proporsional sesuai kebutuhan desain. Selain itu, praktikum ini bertujuan untuk membangun sebuah user interface sederhana berupa **control bar pemutar musik** yang ditempatkan di bagian bawah layar, lengkap dengan tombol-tombol kontrol seperti **Shuffle, Previous, Play, Next, dan Repeat**.  
+### 👤 Identitas  
+- **Nama:** Jovan Faizan Ardiansyah  
+- **NIM:** 230605110138  
+- **Kelas:** C  
 
 ---
 
-### Langkah-Langkah  
-- Membuat project baru Flutter.  
-- Mengatur tema aplikasi menggunakan `ThemeData.dark()`.  
-- Membuat struktur `Scaffold` dengan `AppBar` dan `body`.  
-- Menambahkan `bottomNavigationBar` sebagai control bar.  
-- Membungkus control bar dengan `Container` serta memberi padding dan warna latar gelap.  
-- Menyusun tombol kontrol menggunakan `Row`.  
-- Menambahkan lima tombol ikon: **Shuffle, Previous, Play, Next, dan Repeat**.  
-- Mengatur distribusi ruang dengan `Expanded` untuk empat tombol dan `Flexible` untuk tombol Play.  
-- Memberi warna putih pada semua ikon.  
-- Menjalankan aplikasi dan menguji tampilan control bar.  
+### 🎯 Tujuan  
+Di praktikum ini, tujuannya simpel: belajar gimana cara ngatur layout di Flutter biar rapi dan proporsional. Caranya dengan pakai kombinasi **Row**, **Expanded**, dan **Flexible**.  
+Output akhirnya berupa **Control Bar pemutar musik** di bagian bawah layar, lengkap dengan tombol: **Shuffle, Previous, Play, Next, dan Repeat**. Jadi hasilnya kayak player musik beneran dengan tombol Play yang lebih dominan di tengah.  
 
 ---
 
-### Kesimpulan  
-Berdasarkan hasil praktikum, dapat disimpulkan bahwa penggunaan **Expanded** dan **Flexible** pada Flutter sangat membantu dalam mengatur distribusi ruang agar elemen-elemen kontrol dapat tampil proporsional. `Expanded` digunakan untuk membagi ruang secara merata pada tombol **Shuffle, Previous, Next, dan Repeat**, sedangkan `Flexible` dengan `flex: 2` diterapkan pada tombol **Play** agar tampil lebih besar dan menjadi fokus utama pada control bar. Selain itu, dengan memanfaatkan `ThemeData.dark()` serta `Container` berwarna gelap, tampilan aplikasi menjadi lebih menarik dan kontras dengan ikon berwarna putih. Dengan demikian, praktikum ini berhasil mencapai tujuan yaitu membangun sebuah UI sederhana untuk control bar pemutar musik dengan desain yang rapi, fungsional, dan estetis.  
+### 🛠️ Langkah-Langkah  
+1. Bikin project baru Flutter.  
+2. Atur tema aplikasi pakai `ThemeData.dark()` biar tampilannya dark mode.  
+3. Bangun struktur dasar aplikasi dengan `Scaffold` (ada AppBar & body).  
+4. Tambahin `bottomNavigationBar` buat control bar.  
+5. Bungkus control bar dengan `Container`, kasih padding & warna latar gelap (`Colors.black54`).  
+6. Susun tombol kontrol dalam `Row`.  
+7. Tambahin lima tombol ikon: **Shuffle, Previous, Play, Next, Repeat**.  
+8. Bagi ruang tombol pakai `Expanded` (4 tombol) dan `Flexible` (khusus Play biar lebih besar).  
+9. Set semua ikon berwarna putih biar kontras sama background.  
+10. Jalankan aplikasi dan cek hasilnya. 🎉  
 
 ---
+
+### ✅ Kesimpulan  
+Dari praktikum ini bisa ditarik kesimpulan kalau kombinasi **Expanded** dan **Flexible** di Flutter itu powerful banget buat ngatur layout.  
+- **Expanded**: ngebagi ruang rata buat Shuffle, Previous, Next, dan Repeat.  
+- **Flexible (flex: 2)**: bikin tombol Play lebih gede & jadi pusat perhatian.  
+
+Ditambah lagi dengan `ThemeData.dark()` dan background gelap, tampilannya jadi lebih kece, modern, dan nyaman dilihat. Jadi, praktikum ini sukses bikin UI sederhana tapi fungsional untuk control bar musik. 🎧  
+
+---
+
+✨ Hasil akhirnya: Control bar musik yang rapi, proporsional, dan estetik!  
